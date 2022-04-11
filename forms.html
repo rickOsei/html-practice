@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forms Practice</title>
+        <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+        <style>
+            body{background-color: cyan;
+                 margin-left: 10%;
+            }
+            h1{color: yellow;
+               }
+            label,p{color: orangered;}
+            input{ border-radius: 10%; border-bottom: solid black; border-color: indianred;}
+        </style>
+    </head>
+    <form>
+    	<h1><span style="color:black">SIGN</span> UP</h1><hr>
+
+    	<label>Firstname</label>
+    	<input type="text" name="firstname" placeholder="First name"><br><br>
+
+    	<label>Last name</label>
+    	<input type="text" name="lastname" placeholder="Last name"><br><br>
+
+    	<label>Email</label>
+    	<input type="email" name="email" placeholder="example@gmail.com"required><br><br>
+
+        <label>Password</label>
+        <input type="password" name="pword" required><br><br>
+
+    	<label>Phone</label>
+    	<input type="number" name="phone" placeholder="Phone"><br><br>
+
+        <label>Date</label>
+        <input type="Date" name="date"><br>
+
+    	<p style="border-bottom: 1px dashed black; border-width: 1px;" >Gender</p>
+    	<label for="Male">Male</label>
+    	<input type="radio" name="Gender" id="Male" value="Male">
+    	<label for="Female">Female</label>
+    	<input type="radio" name="Gender" id="Female" value="Female">
+    	<label for=	"Other">Other</label>
+    	<input type="radio" name="Gender" id="Other" value="Other"><br><br>
+
+    	<button>Sign Up</button>
+
+    </form>
+    <body>

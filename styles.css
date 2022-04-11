@@ -1,0 +1,14 @@
+body{
+	margin-left: 10%;
+	background-image: url(images/download4.jpg);
+	background-size: auto;
+}
+h1,h2,p,ol{
+	font-family: Arial;
+	color: whitesmoke;
+}
+#unorderedlist {
+	color: whitesmoke;
+	font-family: Brush Script;
+
+}
